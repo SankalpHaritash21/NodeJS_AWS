@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-aws",
+  "version": "1.0.0",
+  "description": "Deploying nodejs on AWS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SankalpHaritash21/NodeJS_AWS.git"
+  },
+  "keywords": [
+    "Node.JS",
+    "JavaScript",
+    "AWS"
+  ],
+  "author": "Sankalp Haritash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SankalpHaritash21/NodeJS_AWS/issues"
+  },
+  "homepage": "https://github.com/SankalpHaritash21/NodeJS_AWS#readme",
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
