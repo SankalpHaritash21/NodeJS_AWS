@@ -52,7 +52,7 @@ This command will print the git version in the terminal.
 Run below command to clone the code repository from Github:
 
 ```bash
-git clone https://github.com/yeshwanthlm/nodejs-on-ec2.git
+git clone https://github.com/SankalpHaritash21/NodeJS_AWS.git
 ```
 
 Get inside the directory and Install Packages
