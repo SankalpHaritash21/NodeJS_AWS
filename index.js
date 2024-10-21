@@ -1,10 +1,12 @@
-var http = require("http");
+const http = require("http");
+const port = process.env.PORT || 3000;
 
-//create a server object:
-http
-  .createServer(function (req, res) {
-    res.write("** Welcome to GlobalLogic!!!! **"); //write a response to the client
-    console.log("Server Running");
-    res.end(); //end the response
-  })
-  .listen(80); //the server object listens on port 80
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  const msg = "Hello Node Server is running on AWS!\n";
+  res.end(msg);
+});
+
+server.listen(port, () => {
+  console.log(`Server running on http://localhost:${port}/`);
+});
